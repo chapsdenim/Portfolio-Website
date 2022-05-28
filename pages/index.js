@@ -16,6 +16,11 @@ export default function Home() {
             <a>First Post</a>
           </Link>
         </h1>
+        <h1>
+          <Link href= "/posts/JobHistoryPage">
+            <a>Jobs Page</a>
+          </Link>
+        </h1>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>

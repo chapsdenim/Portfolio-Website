@@ -1,0 +1,36 @@
+.text{
+    display: flex;
+    flex-direction: column;
+    font-size: small;
+}
+
+.text2{
+    display: inline;
+    padding-top: 1%;
+}
+
+.jobs{
+    padding: 10px 30px 0px 20px;
+    display:flex;
+    flex-direction: row;
+    max-width: max-content;
+    flex-wrap: none;
+    
+    
+    }
+
+.CVContainer{
+    display:flex;
+    flex-direction: column;
+    max-width: max-content;
+    flex-wrap: none;
+  
+    
+}
+
+.logo{
+    display: flex;
+    height: 50px;
+    align-self:center;
+
+}
