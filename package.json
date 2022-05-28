@@ -47,5 +47,9 @@
     "sitemap": "^6.2.0",
     "stripe": "^8.129.0",
     "winston": "^3.3.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "eslint-plugin-react": "^7.30.0"
   }
 }
