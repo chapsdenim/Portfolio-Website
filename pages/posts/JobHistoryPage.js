@@ -1,13 +1,15 @@
 import React from 'react'
 import Head from 'next/head'
 import Link from 'next/link'
-import { data } from "./CVDataFile"
+import  data from "./CVDataFile"
 import styles from './CVLayout.module.css' 
 import Toolbar from '@mui/material/Toolbar';
 
 export default function JobHistoryPage(){
     //to dynamically grow or shrink our job list, we import the data and assign it to a state variable
         //everytime a job is added or removed from CVDataFile, the state variable will re-render the page
+    
+    
     const [CVData, setCVData] = React.useState({data})
 
 //we use the CV component, that takes in as arguments props/the jobs data, to apply formatting to each job.  

@@ -1,4 +1,4 @@
-export const data = [{ 
+export default [{ 
     id: 1, 
     coName: "Digital Insight",
     startDate: "1/1/2006",
