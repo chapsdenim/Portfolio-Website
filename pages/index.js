@@ -20,7 +20,6 @@ export default function Home() {
             <a>Home Page</a> 
         </Link> */}
         
-      <section className="cardSection">   
         <div className= "cardContainer" >
           <img src="images/ProfilePhoto.jpg" className="profilePic"/>
           <h2 className="name">Gabriel Villegas</h2>
@@ -30,6 +29,7 @@ export default function Home() {
           <p className="aboutDesc">I completed my undergrad studies with a focus in Accounting and Information Systems.  Initially I branched into an Accounting focused career.  I worked in that field for about 15 years, passed the CPA, CMA and CIA exams, and became a pretty well rounded accountant.  Although I enjoyed that journey, the part of the job I enjoyed most was developing tools in excel and access and participating in deploying enterprise software.  That is why I decided to branch into a Web Developer focused career.  The stack I am currently learning is JavaScript, React, Next.JS, Node.JS, Express, PostgreSQL, and MongoDB.  I am also learning Solidity, so I can explore the innerworkings of blockchain and smart contracts.</p>
     
        <div className = "cardFooterRow">
+
           <div className="cardFooterColumn">
               <a href="https://github.com/chapsdenim" >
               <img src="images/GitHub-Mark-Light-32px.png" />
@@ -57,9 +57,9 @@ export default function Home() {
         </div>
         
       </div>
-      </section>
-      <h2 className="about"> Prior Work History</h2>
-      <JobHistoryPage className="grid"/>
+
+        <h2 className="about"> Prior Work History</h2>
+        <JobHistoryPage/>
       </main>
 
       <footer title="This is my footer">

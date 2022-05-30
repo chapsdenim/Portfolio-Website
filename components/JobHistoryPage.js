@@ -124,13 +124,13 @@ const experience = data.map((jobs) =>{
 //we use Link to link to another page within our app.
  
     return(
-        <>
+
         
         <div title="Job info formatted using a React.js component. The job data was placed in an array and I used map to pass props into">
             <section className = {styles.jobs}>
                 {experience}
             </section>
         </div>     
-        </>
+      
     )
 }
