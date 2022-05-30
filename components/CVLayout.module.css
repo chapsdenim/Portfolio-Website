@@ -2,11 +2,17 @@
     display: flex;
     flex-direction: column;
     font-size: small;
+    list-style-type: none
 }
 
 .text2{
-    display: inline;
-    padding-top: 1%;
+    text-align: left;
+          font-family: 'Inter';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 11px;
+          line-height: 150%;
+          color: #DCDCDC;
 }
 
 .jobs{
@@ -24,6 +30,8 @@
     flex-direction: column;
     max-width: max-content;
     flex-wrap: none;
+    color: white;
+    padding: 10px;
   
     
 }
@@ -33,4 +41,16 @@
     height: 50px;
     align-self:center;
 
+}
+
+.priorWorkExp{
+    
+    display:flex;
+    flex-direction: row;
+    color: white;
+
+}
+
+.workExperience{
+    color: white;
 }

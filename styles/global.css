@@ -26,5 +26,8 @@ a:hover {
 img {
     max-width: 100%;
     display: block;
+    padding: 0px;
+    margin:0px;
+    
 }
 

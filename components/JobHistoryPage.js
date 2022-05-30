@@ -1,8 +1,6 @@
 import React from 'react'
-import Head from 'next/head'
-import Link from 'next/link'
+
 import styles from './CVLayout.module.css' 
-import Toolbar from '@mui/material/Toolbar';
 
 export default function JobHistoryPage(){
     //to dynamically grow or shrink our job list, we import the data and assign it to a state variable
@@ -98,9 +96,9 @@ export default function JobHistoryPage(){
             <section className={styles.CVContainer} key = {props.id}>
                 <img className={styles.logo} src={props.logoURL} width="150" height ="30"/>
                 <ul className={styles.text}>
-                    <li className={styles.text2}><b>Company:&nbsp;</b>{props.coName}</li>
-                    <li className={styles.text2}><b>Title:&nbsp;</b>{props.title}</li>
-                    <li className={styles.text2}><b>Tenure:&nbsp;</b>{props.startDate}-{props.endDate}</li>
+                    <li className={styles.text2}>{props.coName}</li>
+                    <li className={styles.text2}>{props.title}</li>
+                    <li className={styles.text2}>{props.startDate}-{props.endDate}</li>
                 </ul>
             </section>
             )
@@ -126,20 +124,13 @@ const experience = data.map((jobs) =>{
 //we use Link to link to another page within our app.
  
     return(
-    <>
-    <Toolbar>
-        <Head>
-            <title>Job History</title> 
-        </Head>
-
-        <Link href="/">
-            <a>Home Page</a> 
-        </Link> 
-    </Toolbar>
-        <section className = {styles.jobs}>
-            {experience}
-        </section>
-  
-    </>
+        <>
+        
+        <div title="Job info formatted using a React.js component. The job data was placed in an array and I used map to pass props into">
+            <section className = {styles.jobs}>
+                {experience}
+            </section>
+        </div>     
+        </>
     )
 }
