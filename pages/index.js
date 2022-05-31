@@ -8,10 +8,6 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Home Page</title>
-        <style>
-        @import url(&lsquohttps://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400&display=swap&rsquo);
-        </style>
-
       </Head>
 
       <main >
@@ -26,7 +22,7 @@ export default function Home() {
           <p className="curJobTitle">Web Developer</p>
           <p className="website">gvfullstack.com</p>
           <h3 className="about">About</h3>
-          <p className="aboutDesc">I completed my undergrad studies with a focus in Accounting and Information Systems.  Initially I branched into an Accounting focused career.  I worked in that field for about 15 years, passed the CPA, CMA and CIA exams, and became a pretty well rounded accountant.  Although I enjoyed that journey, the part of the job I enjoyed most was developing tools in excel and access and participating in deploying enterprise software.  That is why I decided to branch into a Web Developer focused career.  The stack I am currently learning is JavaScript, React, Next.JS, Node.JS, Express, PostgreSQL, and MongoDB.  I am also learning Solidity, so I can explore the innerworkings of blockchain and smart contracts.</p>
+          <p className="aboutDesc">I completed my undergrad studies with a focus in Accounting and Information Systems.  Initially I branched into an Accounting focused career.  I worked in that field for about 15 years, passed the CPA, CMA and CIA exams, and became a pretty well rounded accountant.  Although I enjoyed that journey, the part of the job I enjoyed most was developing tools in excel and access and participating in deploying enterprise software.  That is why I decided to branch into Web Development.  The stack I am currently learning is JavaScript, React, Next.JS, Node.JS, Express, PostgreSQL, and MongoDB.  I am also learning Solidity, so I can explore the innerworkings of blockchain and smart contracts.</p>
     
        <div className = "cardFooterRow">
 
@@ -67,7 +63,7 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
-        .container {
+          .container {
           min-height: 100vh;
           padding: 0rem;
           display: flex;
@@ -129,7 +125,7 @@ export default function Home() {
         }
         .about{
           text-align: left;
-          font-family: 'Inter';
+          font-family: 'Roboto';
           font-style: normal;
           font-weight: 700;
           font-size: 16px;

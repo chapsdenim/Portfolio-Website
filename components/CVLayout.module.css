@@ -18,8 +18,8 @@
 .jobs{
     padding: 10px 30px 0px 20px;
     display:flex;
-    flex-direction: row;
-    max-width: max-content;
+    flex-direction: column;
+    max-width: 369px;
     flex-wrap: none;
     
     
