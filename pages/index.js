@@ -28,13 +28,13 @@ export default function Home() {
 
           <div className="cardFooterColumn">
               <a href="https://github.com/chapsdenim" >
-              <img src="images/GitHub-Mark-Light-32px.png" />
+              <img  src="images/GitHub-Mark-Light-32px.png" />
               </a>
           </div>
 
           <div className="cardFooterColumn">
               <a href="https://www.linkedin.com/in/gabriel-villegas-cma-cia-4bbbb831/" >
-              <img src="images/linkedin-32.ico" />
+              <img  className="linksIcons" src="images/linkedin-32.ico" />
               </a>
           </div>
 
@@ -63,6 +63,11 @@ export default function Home() {
       </footer>
 
       <style jsx>{`
+      .linksIcons{
+        position:relative;
+        right:35px; 
+        top:0px;
+      }
           .container {
           min-height: 100vh;
           padding: 0rem;
@@ -70,7 +75,10 @@ export default function Home() {
           flex-direction: column;
           justify-content: center;
           align-items: center;
-          background:#1A1B21
+          background:#1A1B21;
+          position:relative; 
+          left:0px; 
+          top:-50px;
         }
 
         main {
@@ -90,6 +98,7 @@ export default function Home() {
         }
       
         .name{
+          font-size: vh100;
           color:white;
           font-family: 'Inter';
           font-style: normal;
@@ -105,7 +114,7 @@ export default function Home() {
           font-family: 'Inter';
           font-style: normal;
           font-weight: 400;
-          font-size: 12.8px;
+          font-size: vh100;
           line-height: 15px;
           text-align: center;
           padding: 0px;
@@ -116,7 +125,7 @@ export default function Home() {
           font-family: 'Inter';
           font-style: normal;
           font-weight: 400;
-          font-size: 10.24px;
+          font-size: vh100;
           line-height: 150%;
           text-align: center;
           color: #F5F5F5;
@@ -128,7 +137,7 @@ export default function Home() {
           font-family: 'Roboto';
           font-style: normal;
           font-weight: 700;
-          font-size: 16px;
+          font-size: vh100 ;
           line-height: 150%;      
           color: #F5F5F5;
           padding:0px 0px 0px 15px
@@ -139,7 +148,7 @@ export default function Home() {
           font-family: 'Inter';
           font-style: normal;
           font-weight: 400;
-          font-size: 11px;
+          font-size: vh100;
           line-height: 150%;
           color: #DCDCDC;
           width: 300;
@@ -147,6 +156,7 @@ export default function Home() {
 
         }
         .cardContainer {
+          min-width:vh100;
           margin: 1rem;
           flex-basis: 45%;
           padding: 0rem;
@@ -174,7 +184,7 @@ export default function Home() {
         }
         .cardFooterColumn{
           flex: 50%;
-          padding: 25px;
+          padding: 15px;
           margin:0px;
 
         footer {
@@ -185,7 +195,6 @@ export default function Home() {
           justify-content: center;
           align-items: center;
         }
-      
 
       `}</style>
 
