@@ -22,7 +22,7 @@ export default function Home() {
           <p className="curJobTitle">Web Developer</p>
           <p className="website">gvfullstack.com</p>
           <h3 className="about">About</h3>
-          <p className="aboutDesc">I completed my undergrad studies with a focus in Accounting and Information Systems.  Initially I branched into an Accounting focused career.  I worked in that field for about 15 years, passed the CPA, CMA and CIA exams, and became a pretty well rounded accountant.  Although I enjoyed that journey, the part of the job I enjoyed most was developing tools in excel and access and participating in deploying enterprise software.  That is why I decided to branch into Web Development.  The stack I am currently learning is JavaScript, React, Next.JS, Node.JS, Express, PostgreSQL, and MongoDB.  I am also learning Solidity, so I can explore the innerworkings of blockchain and smart contracts.</p>
+          <p className="aboutDesc">I completed my undergrad studies with a focus in Accounting and Information Systems.  Initially I branched into an Accounting focused career and worked in that field for about 15 years.  Although I enjoyed that journey, the part of the job I enjoyed most was developing tools (mainly in excel and access) and participating in deploying enterprise software.  That is why in 2021 I finaly decided to branch into Web Development.  The stack I am currently learning is JavaScript, React, Next.JS, Node.JS, Express, PostgreSQL, and MongoDB.  I am also learning Solidity, so I can explore the innerworkings of blockchain and smart contracts.</p>
     
        <div className = "cardFooterRow">
 
